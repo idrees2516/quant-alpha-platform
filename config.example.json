@@ -1,0 +1,31 @@
+{
+  "offline": false,
+  "fixtures_fallback": true,
+  "log_level": "INFO",
+  "mm": {
+    "strategy": "adaptive",
+    "gamma": 0.8,
+    "horizon_h": 24.0,
+    "max_inventory": 120,
+    "quote_size": 25,
+    "adverse_selection_frac": 0.35
+  },
+  "rewards": {
+    "polymarket_enabled": true,
+    "poly_daily_pool_usd": 500.0,
+    "poly_max_spread": 0.03,
+    "poly_size_cap": 300.0,
+    "kalshi_taker_fee_rate": 0.07,
+    "predictit_profit_fee": 0.10,
+    "funding_rate_annual": 0.045
+  },
+  "arb": {
+    "min_edge_after_fees": 0.005,
+    "staleness_confirmations": 2,
+    "kelly_fraction": 0.25
+  },
+  "venues": [
+    {"name": "polymarket", "max_markets": 80},
+    {"name": "kalshi", "max_markets": 80}
+  ]
+}

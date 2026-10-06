@@ -1,0 +1,2760 @@
+{
+ "run_id": "20261006T102357Z",
+ "venue_status": [
+  {
+   "venue": "polymarket",
+   "mode": "live",
+   "markets": 80,
+   "sports": 0,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "kalshi",
+   "mode": "fixtures",
+   "markets": 5,
+   "sports": 0,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "predictit",
+   "mode": "fixtures",
+   "markets": 3,
+   "sports": 0,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "manifold",
+   "mode": "live",
+   "markets": 73,
+   "sports": 0,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "metaculus",
+   "mode": "fixtures",
+   "markets": 3,
+   "sports": 0,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "theoddsapi",
+   "mode": "fixtures",
+   "markets": 0,
+   "sports": 2,
+   "news": 0,
+   "error": ""
+  },
+  {
+   "venue": "espn",
+   "mode": "live",
+   "markets": 0,
+   "sports": 0,
+   "news": 21,
+   "error": ""
+  },
+  {
+   "venue": "gnews",
+   "mode": "live",
+   "markets": 0,
+   "sports": 0,
+   "news": 40,
+   "error": ""
+  },
+  {
+   "venue": "newsapi",
+   "mode": "fixtures",
+   "markets": 0,
+   "sports": 0,
+   "news": 5,
+   "error": ""
+  }
+ ],
+ "counts": {
+  "markets": 164,
+  "sports": 2,
+  "news": 66,
+  "clusters": 65,
+  "mm_plans": 12
+ },
+ "aggregated_markets": [
+  {
+   "cluster": "cl-001",
+   "title": "LoL: HANJIN BRION vs Natus Vincere (BO3) - Demacia Cup Global Invitational Group Stage",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket",
+    "polymarket",
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-060",
+   "title": "FED rate cut by July 2026",
+   "category": "economics",
+   "venues": [
+    "kalshi",
+    "predictit"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.6099,
+    0.3901
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": 0.605,
+     "best_ask": 0.614
+    },
+    {
+     "outcome": "NO",
+     "best_bid": 0.38,
+     "best_ask": 0.385
+    }
+   ],
+   "news_pressure": 0.5507
+  },
+  {
+   "cluster": "cl-061",
+   "title": "US Pres 2028 winner",
+   "category": "politics",
+   "venues": [
+    "kalshi",
+    "predictit"
+   ],
+   "outcomes": [
+    "VANCE",
+    "NEWSOM",
+    "OBAMA",
+    "OTHER"
+   ],
+   "consensus": [
+    0.2955,
+    0.155,
+    0.1114,
+    0.438
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "VANCE",
+     "best_bid": 0.3,
+     "best_ask": 0.315
+    },
+    {
+     "outcome": "NEWSOM",
+     "best_bid": 0.16,
+     "best_ask": 0.17
+    },
+    {
+     "outcome": "OBAMA",
+     "best_bid": 0.105,
+     "best_ask": 0.125
+    },
+    {
+     "outcome": "OTHER",
+     "best_bid": 0.442,
+     "best_ask": 0.462
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-008",
+   "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket",
+    "polymarket",
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0035,
+    0.9965
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-000",
+   "title": "Bitcoin Up or Down on October 5?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-002",
+   "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.165,
+    0.835
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-064",
+   "title": "Shutdown ends before Nov",
+   "category": "politics",
+   "venues": [
+    "kalshi"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.6132,
+    0.3868
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": 0.615,
+     "best_ask": 0.635
+    },
+    {
+     "outcome": "NO",
+     "best_bid": 0.368,
+     "best_ask": 0.388
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-003",
+   "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.8385,
+    0.1615
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-063",
+   "title": "Lakers win vs Celtics Oct 6",
+   "category": "sports",
+   "venues": [
+    "kalshi",
+    "predictit"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.4575,
+    0.5425
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": 0.46,
+     "best_ask": 0.475
+    },
+    {
+     "outcome": "NO",
+     "best_bid": 0.535,
+     "best_ask": 0.55
+    }
+   ],
+   "news_pressure": 0.2429
+  },
+  {
+   "cluster": "cl-062",
+   "title": "BTC above 150k on Dec 31 2026",
+   "category": "crypto",
+   "venues": [
+    "kalshi"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.349,
+    0.651
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": 0.345,
+     "best_ask": 0.365
+    },
+    {
+     "outcome": "NO",
+     "best_bid": 0.635,
+     "best_ask": 0.655
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-006",
+   "title": "LoL: Team Vitality vs RED Canids - Game 1 Winner",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-004",
+   "title": "China Open: Karolina Muchova vs Naomi Osaka",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-005",
+   "title": "Japan Open Tennis Championships: Carlos Alcaraz vs Jiri Lehecka",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-018",
+   "title": "Will Spain win on 2026-10-06?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.285,
+    0.715
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-009",
+   "title": "2026 Balance of Power: R Senate, R House",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0095,
+    0.9905
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-012",
+   "title": "Counter-Strike: G2 vs PARIVISION (BO3) - ESL Pro League Group Stage",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-007",
+   "title": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0015,
+    0.9985
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-010",
+   "title": "LoL: JD Gaming vs LGD Gaming (BO3) - Demacia Cup Global Invitational Group Stage",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-011",
+   "title": "Shanghai Rolex Masters, Qualification: Kyrian Jacquet vs Rei Sakamoto",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-013",
+   "title": "US announces end of Iranian blockade by October 15, 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.125,
+    0.875
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-014",
+   "title": "Will the U.S. invade Iran before 2027?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.145,
+    0.855
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-015",
+   "title": "Putin out as President of Russia by December 31, 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.031,
+    0.969
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-016",
+   "title": "Clarity Act (H.R.3633) signed into law in 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0485,
+    0.9515
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-017",
+   "title": "China Open: Novak Djokovic vs Alex de Minaur",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-038",
+   "title": "Will Elon Musk post 200-219 tweets from September 29 to October 6, 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.016,
+    0.984
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0973
+  },
+  {
+   "cluster": "cl-029",
+   "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.925,
+    0.075
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-032",
+   "title": "Will the price of Bitcoin be above $90,000 on October 6?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.9955,
+    0.0045
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-019",
+   "title": "Will Marine Le Pen win the 2027 French presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.4255,
+    0.5745
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-020",
+   "title": "Will David Lisnard win the 2027 French presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.1175,
+    0.8825
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-026",
+   "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.575,
+    0.425
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-035",
+   "title": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+   "category": "other",
+   "venues": [
+    "polymarket",
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0035,
+    0.9965
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-021",
+   "title": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0015,
+    0.9985
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-022",
+   "title": "Will JD Vance win the 2028 US Presidential Election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.2025,
+    0.7975
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-023",
+   "title": "Strait of Hormuz traffic returns to normal by December 31?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.185,
+    0.815
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-024",
+   "title": "Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.176,
+    0.824
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-025",
+   "title": "Will the US confirm that aliens exist before 2027?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0315,
+    0.9685
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-027",
+   "title": "Dota 2: HULIGANI vs CyberHero - Game 2 Winner",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-028",
+   "title": "Game Handicap: VIT (-1.5) vs RED Canids (+1.5)",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-030",
+   "title": "Suzhou: Daria Khomutsianskaya vs Tyra Caterina Grant",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-031",
+   "title": "US announces end of Iranian blockade by October 31, 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.215,
+    0.785
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-033",
+   "title": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.085,
+    0.915
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-034",
+   "title": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.007,
+    0.993
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-036",
+   "title": "Will the Iranian regime fall before 2027?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.055,
+    0.945
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-037",
+   "title": "Will Czechia win on 2026-10-06?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0295,
+    0.9705
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-039",
+   "title": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.815,
+    0.185
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-040",
+   "title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - ESL Pro League Group Stage",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-041",
+   "title": "Spread: Croatia (-1.5)",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-042",
+   "title": "Will Nicolas Dupont-Aignan win the 2027 French presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0005,
+    0.9995
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-043",
+   "title": "Will Harry Kane win the 2026 Ballon d'Or?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.48,
+    0.52
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-044",
+   "title": "Game Handicap: BRO (-1.5) vs Natus Vincere (+1.5)",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-045",
+   "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.355,
+    0.645
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-046",
+   "title": "Will India win on 2026-10-06?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0249,
+    0.9751
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-047",
+   "title": "Will Mistral have the best AI model at the end of December 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0085,
+    0.9915
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-048",
+   "title": "US announces end of Iranian blockade by December 31, 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5005,
+    0.4995
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-049",
+   "title": "Will Lionel Messi win the 2026 Ballon d'Or?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0225,
+    0.9775
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-050",
+   "title": "Will Santiago Abascal be the next Prime Minister of Spain?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0155,
+    0.9845
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-051",
+   "title": "Shanghai Rolex Masters: Hubert Hurkacz vs James Duckworth",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-052",
+   "title": "Saudi Oil Pipeline (East-West) restarts by October 15?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.999,
+    0.001
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-053",
+   "title": "Counter-Strike: Just Players vs MORROW (BO3) - NODWIN Clutch Series Play-In Group A",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-054",
+   "title": "Will Donald Trump win the Nobel Peace Prize in 2026?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0065,
+    0.9935
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-055",
+   "title": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.462,
+    0.538
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-056",
+   "title": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.023,
+    0.977
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-057",
+   "title": "Bab el-Mandeb Strait effectively closed by December 31?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.145,
+    0.855
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-058",
+   "title": "Will Olivier Faure win the 2027 French presidential election?",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.0015,
+    0.9985
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0
+  },
+  {
+   "cluster": "cl-059",
+   "title": "Spread: Cowboys (-9.5)",
+   "category": "other",
+   "venues": [
+    "polymarket"
+   ],
+   "outcomes": [
+    "YES",
+    "NO"
+   ],
+   "consensus": [
+    0.5,
+    0.5
+   ],
+   "best_bid_ask": [
+    {
+     "outcome": "YES",
+     "best_bid": null,
+     "best_ask": null
+    },
+    {
+     "outcome": "NO",
+     "best_bid": null,
+     "best_ask": null
+    }
+   ],
+   "news_pressure": 0.0504
+  }
+ ],
+ "arbitrage": {
+  "actionable": [
+   {
+    "kind": "sports_dutch",
+    "title": "Lakers win vs Celtics Oct 6",
+    "edge": 0.0373,
+    "net_cost": 0.964,
+    "payout": 1.0,
+    "risk_free": true,
+    "confidence": 1.0,
+    "horizon_days": 0.4,
+    "notes": "bookmaker Dutch book",
+    "legs": [
+     {
+      "venue": "sports:BookA",
+      "market": "game:cl-063",
+      "outcome": "Lakers",
+      "side": "buy",
+      "price": 0.4762,
+      "eff_price": 0.4762
+     },
+     {
+      "venue": "sports:BookB",
+      "market": "game:cl-063",
+      "outcome": "Celtics",
+      "side": "buy",
+      "price": 0.4878,
+      "eff_price": 0.4878
+     }
+    ]
+   }
+  ],
+  "candidates": [],
+  "value_signals": [],
+  "execution_plans": [
+   {
+    "opportunity": "sports_dutch",
+    "cluster": "cl-063",
+    "title": "Lakers win vs Celtics Oct 6",
+    "edge": 0.0373,
+    "risk_free": true,
+    "net_cost_per_unit": 0.964,
+    "guaranteed_payout": 1.0,
+    "sizing": {
+     "contracts_per_leg": 25.0,
+     "capital_usd": 24.1,
+     "expected_profit_usd": 0.9,
+     "funding_cost_usd": 0.0
+    },
+    "legs": [
+     {
+      "venue": "sports:BookA",
+      "market": "game:cl-063",
+      "outcome": "Lakers",
+      "side": "buy",
+      "limit_price": 0.4762,
+      "eff_price_incl_fees": 0.4762,
+      "displayed_depth": 0.0,
+      "order_type": "IOC-limit",
+      "note": "decimal 2.1"
+     },
+     {
+      "venue": "sports:BookB",
+      "market": "game:cl-063",
+      "outcome": "Celtics",
+      "side": "buy",
+      "limit_price": 0.4878,
+      "eff_price_incl_fees": 0.4878,
+      "displayed_depth": 0.0,
+      "order_type": "IOC-limit",
+      "note": "decimal 2.05"
+     }
+    ],
+    "notes": "bookmaker Dutch book"
+   }
+  ]
+ },
+ "market_making_plans": [
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-1",
+   "outcome": "OTHER",
+   "bid": 0.39,
+   "ask": 0.5,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.4464,
+   "expected_usd_per_hour": 4.8211,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 5.1902,
+    "adverse_cost_usd_h": 0.3691,
+    "net_usd_h": 4.8211,
+    "fill_rate_h": 3.775,
+    "risk_usd": 10.11,
+    "A": 8.0,
+    "k": 26.3,
+    "sigma": 0.0283,
+    "bid_half": 0.0581,
+    "ask_half": 0.0581,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "predictit",
+   "market": "fx-predictit-1",
+   "outcome": "Vance",
+   "bid": 0.29,
+   "ask": 0.31,
+   "size": 25,
+   "strategy": "avellaneda_stoikov",
+   "fair": 0.3042,
+   "expected_usd_per_hour": 1.8571,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.034,
+    "adverse_cost_usd_h": 1.1769,
+    "net_usd_h": 1.8571,
+    "fill_rate_h": 12.136,
+    "risk_usd": 10.07,
+    "A": 8.0,
+    "k": 27.6,
+    "sigma": 0.0327,
+    "reservation_x": -0.8273,
+    "spread_logits": 0.0358,
+    "gamma": 0.8
+   }
+  },
+  {
+   "venue": "predictit",
+   "market": "fx-predictit-1",
+   "outcome": "Newsom",
+   "bid": 0.15,
+   "ask": 0.17,
+   "size": 25,
+   "strategy": "avellaneda_stoikov",
+   "fair": 0.164,
+   "expected_usd_per_hour": 1.8375,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 2.9681,
+    "adverse_cost_usd_h": 1.1306,
+    "net_usd_h": 1.8375,
+    "fill_rate_h": 11.872,
+    "risk_usd": 10.0,
+    "A": 8.0,
+    "k": 29.8,
+    "sigma": 0.0496,
+    "reservation_x": -1.6286,
+    "spread_logits": 0.0564,
+    "gamma": 0.8
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-0",
+   "outcome": "NO",
+   "bid": 0.33,
+   "ask": 0.43,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.3811,
+   "expected_usd_per_hour": 4.1766,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 4.5343,
+    "adverse_cost_usd_h": 0.3577,
+    "net_usd_h": 4.1766,
+    "fill_rate_h": 3.627,
+    "risk_usd": 10.14,
+    "A": 8.0,
+    "k": 29.7,
+    "sigma": 0.0299,
+    "bid_half": 0.0537,
+    "ask_half": 0.0537,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-3",
+   "outcome": "YES",
+   "bid": 0.41000000000000003,
+   "ask": 0.52,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.465,
+   "expected_usd_per_hour": 3.5755,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.8495,
+    "adverse_cost_usd_h": 0.274,
+    "net_usd_h": 3.5755,
+    "fill_rate_h": 2.8,
+    "risk_usd": 10.11,
+    "A": 8.0,
+    "k": 31.7,
+    "sigma": 0.0281,
+    "bid_half": 0.0516,
+    "ask_half": 0.0516,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-3",
+   "outcome": "NO",
+   "bid": 0.49,
+   "ask": 0.59,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.541,
+   "expected_usd_per_hour": 3.7361,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 4.0538,
+    "adverse_cost_usd_h": 0.3177,
+    "net_usd_h": 3.7361,
+    "fill_rate_h": 3.243,
+    "risk_usd": 10.11,
+    "A": 8.0,
+    "k": 31.9,
+    "sigma": 0.0282,
+    "bid_half": 0.0513,
+    "ask_half": 0.0513,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "predictit",
+   "market": "fx-predictit-0",
+   "outcome": "No",
+   "bid": 0.38,
+   "ask": 0.4,
+   "size": 25,
+   "strategy": "avellaneda_stoikov",
+   "fair": 0.3901,
+   "expected_usd_per_hour": 1.7426,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 2.8662,
+    "adverse_cost_usd_h": 1.1236,
+    "net_usd_h": 1.7426,
+    "fill_rate_h": 11.465,
+    "risk_usd": 10.12,
+    "A": 8.0,
+    "k": 33.3,
+    "sigma": 0.0294,
+    "reservation_x": -0.4471,
+    "spread_logits": 0.0309,
+    "gamma": 0.8
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-2",
+   "outcome": "NO",
+   "bid": 0.6,
+   "ask": 0.7000000000000001,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.6474,
+   "expected_usd_per_hour": 3.419,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.7089,
+    "adverse_cost_usd_h": 0.2899,
+    "net_usd_h": 3.419,
+    "fill_rate_h": 2.967,
+    "risk_usd": 10.1,
+    "A": 8.0,
+    "k": 33.7,
+    "sigma": 0.0306,
+    "bid_half": 0.0497,
+    "ask_half": 0.0497,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-2",
+   "outcome": "YES",
+   "bid": 0.3,
+   "ask": 0.4,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.3526,
+   "expected_usd_per_hour": 3.1832,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.4531,
+    "adverse_cost_usd_h": 0.2699,
+    "net_usd_h": 3.1832,
+    "fill_rate_h": 2.762,
+    "risk_usd": 10.1,
+    "A": 8.0,
+    "k": 35.1,
+    "sigma": 0.0306,
+    "bid_half": 0.0485,
+    "ask_half": 0.0485,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-0",
+   "outcome": "YES",
+   "bid": 0.56,
+   "ask": 0.65,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.6063,
+   "expected_usd_per_hour": 3.2069,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.5122,
+    "adverse_cost_usd_h": 0.3053,
+    "net_usd_h": 3.2069,
+    "fill_rate_h": 3.122,
+    "risk_usd": 10.11,
+    "A": 8.0,
+    "k": 36.3,
+    "sigma": 0.0293,
+    "bid_half": 0.0475,
+    "ask_half": 0.0475,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-1",
+   "outcome": "VANCE",
+   "bid": 0.25,
+   "ask": 0.35000000000000003,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.3012,
+   "expected_usd_per_hour": 2.954,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.2034,
+    "adverse_cost_usd_h": 0.2494,
+    "net_usd_h": 2.954,
+    "fill_rate_h": 2.563,
+    "risk_usd": 10.09,
+    "A": 8.0,
+    "k": 36.6,
+    "sigma": 0.033,
+    "bid_half": 0.0473,
+    "ask_half": 0.0473,
+    "sigma_p": 0.0069,
+    "converged": 1.0
+   }
+  },
+  {
+   "venue": "kalshi",
+   "market": "fx-kalshi-4",
+   "outcome": "YES",
+   "bid": 0.5700000000000001,
+   "ask": 0.67,
+   "size": 25,
+   "strategy": "glft",
+   "fair": 0.6203,
+   "expected_usd_per_hour": 2.9511,
+   "components": {
+    "rewards_usd_h": 0.0,
+    "spread_capture_usd_h": 3.2035,
+    "adverse_cost_usd_h": 0.2524,
+    "net_usd_h": 2.9511,
+    "fill_rate_h": 2.563,
+    "risk_usd": 10.14,
+    "A": 8.0,
+    "k": 36.6,
+    "sigma": 0.0299,
+    "bid_half": 0.0473,
+    "ask_half": 0.0473,
+    "sigma_p": 0.007,
+    "converged": 1.0
+   }
+  }
+ ],
+ "market_making_backtests": [
+  {
+   "market": "FED rate cut by July 2026",
+   "venue": "kalshi",
+   "strategy": "avellaneda_stoikov",
+   "pnl_usd": 297.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 185.24,
+   "adverse_cost_usd": 128.95,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 1.35,
+   "avg_abs_inventory": 16.7,
+   "total_fills": 1321,
+   "sharpe": 226.02,
+   "final_equity_usd": 2297.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "FED rate cut by July 2026",
+   "venue": "kalshi",
+   "strategy": "glft",
+   "pnl_usd": 45.0,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 39.41,
+   "adverse_cost_usd": 5.55,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.16,
+   "avg_abs_inventory": 2.3,
+   "total_fills": 58,
+   "sharpe": 34.08,
+   "final_equity_usd": 2045.0,
+   "note": "spread capture only"
+  },
+  {
+   "market": "FED rate cut by July 2026",
+   "venue": "kalshi",
+   "strategy": "adaptive_plain",
+   "pnl_usd": 304.0,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 171.72,
+   "adverse_cost_usd": 134.54,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.84,
+   "avg_abs_inventory": 18.8,
+   "total_fills": 1240,
+   "sharpe": 193.79,
+   "final_equity_usd": 2304.0,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Shutdown ends before Nov",
+   "venue": "kalshi",
+   "strategy": "avellaneda_stoikov",
+   "pnl_usd": 207.5,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 111.32,
+   "adverse_cost_usd": 115.73,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 1.22,
+   "avg_abs_inventory": 21.1,
+   "total_fills": 969,
+   "sharpe": 147.79,
+   "final_equity_usd": 2207.5,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Shutdown ends before Nov",
+   "venue": "kalshi",
+   "strategy": "glft",
+   "pnl_usd": 30.5,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 25.52,
+   "adverse_cost_usd": 5.81,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.39,
+   "avg_abs_inventory": 2.2,
+   "total_fills": 46,
+   "sharpe": 31.28,
+   "final_equity_usd": 2030.5,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Shutdown ends before Nov",
+   "venue": "kalshi",
+   "strategy": "adaptive_plain",
+   "pnl_usd": 252.0,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 96.12,
+   "adverse_cost_usd": 120.49,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.51,
+   "avg_abs_inventory": 26.5,
+   "total_fills": 913,
+   "sharpe": 147.51,
+   "final_equity_usd": 2252.0,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Fed rate cut by July?",
+   "venue": "predictit",
+   "strategy": "avellaneda_stoikov",
+   "pnl_usd": 215.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 117.59,
+   "adverse_cost_usd": 114.72,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.36,
+   "avg_abs_inventory": 19.4,
+   "total_fills": 997,
+   "sharpe": 160.2,
+   "final_equity_usd": 2215.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Fed rate cut by July?",
+   "venue": "predictit",
+   "strategy": "glft",
+   "pnl_usd": 48.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 39.66,
+   "adverse_cost_usd": 7.39,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.32,
+   "avg_abs_inventory": 3.0,
+   "total_fills": 62,
+   "sharpe": 37.92,
+   "final_equity_usd": 2048.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "Fed rate cut by July?",
+   "venue": "predictit",
+   "strategy": "adaptive_plain",
+   "pnl_usd": 225.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 99.85,
+   "adverse_cost_usd": 118.7,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 1.17,
+   "avg_abs_inventory": 25.5,
+   "total_fills": 922,
+   "sharpe": 141.01,
+   "final_equity_usd": 2225.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "BTC above 150k on Dec 31 2026",
+   "venue": "kalshi",
+   "strategy": "avellaneda_stoikov",
+   "pnl_usd": 195.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 115.52,
+   "adverse_cost_usd": 81.62,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 1.0,
+   "avg_abs_inventory": 20.8,
+   "total_fills": 842,
+   "sharpe": 136.78,
+   "final_equity_usd": 2195.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "BTC above 150k on Dec 31 2026",
+   "venue": "kalshi",
+   "strategy": "glft",
+   "pnl_usd": 30.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 25.77,
+   "adverse_cost_usd": 4.24,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.16,
+   "avg_abs_inventory": 1.9,
+   "total_fills": 40,
+   "sharpe": 29.78,
+   "final_equity_usd": 2030.25,
+   "note": "spread capture only"
+  },
+  {
+   "market": "BTC above 150k on Dec 31 2026",
+   "venue": "kalshi",
+   "strategy": "adaptive_plain",
+   "pnl_usd": 202.25,
+   "rewards_usd": 0.0,
+   "spread_capture_usd": 110.99,
+   "adverse_cost_usd": 91.33,
+   "fees_usd": 0.0,
+   "max_drawdown_usd": 0.54,
+   "avg_abs_inventory": 21.2,
+   "total_fills": 862,
+   "sharpe": 150.21,
+   "final_equity_usd": 2202.25,
+   "note": "spread capture only"
+  }
+ ],
+ "best_strategy_by_market": {
+  "FED rate cut by July 2026": "adaptive_plain",
+  "Shutdown ends before Nov": "adaptive_plain",
+  "Fed rate cut by July?": "adaptive_plain",
+  "BTC above 150k on Dec 31 2026": "adaptive_plain"
+ },
+ "calibration": [
+  {
+   "source": "metaculus",
+   "n": 3,
+   "brier": 0.1362,
+   "log_loss": 0.4606,
+   "reliability": [
+    [
+     0.3,
+     0.0
+    ],
+    [
+     0.7,
+     1.0
+    ]
+   ],
+   "platt": [
+    1.0,
+    0.0
+   ],
+   "consensus_weight": 5.369
+  },
+  {
+   "source": "kalshi",
+   "n": 4,
+   "brier": 0.1761,
+   "log_loss": 0.5419,
+   "reliability": [
+    [
+     0.3,
+     0.0
+    ],
+    [
+     0.5,
+     1.0
+    ],
+    [
+     0.7,
+     1.0
+    ]
+   ],
+   "platt": [
+    1.0,
+    0.0
+   ],
+   "consensus_weight": 4.423
+  }
+ ],
+ "hypothesis_tests": [
+  {
+   "hypothesis": "H2 consensus",
+   "statistic": -0.007,
+   "p_value": 0.0747,
+   "verdict": "INCONCLUSIVE",
+   "detail": "consensus brier=0.1437 best source metaculus=0.1362; bootstrap CI=[-0.0324,0.0075]"
+  },
+  {
+   "hypothesis": "H1 lead-lag",
+   "statistic": -0.238,
+   "p_value": 0.4398,
+   "verdict": "REJECTED",
+   "detail": "corr(lag0)=0.166 corr(lag+1)=-0.072 lead=polymarket"
+  },
+  {
+   "hypothesis": "H3 mm pnl (avellaneda_stoikov/kalshi)",
+   "statistic": 37.256,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=1.322 t=37.26 CI=[1.254,1.392]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (glft/kalshi)",
+   "statistic": 5.617,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.188 t=5.62 CI=[0.124,0.258]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (adaptive_plain/kalshi)",
+   "statistic": 31.943,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=1.272 t=31.94 CI=[1.194,1.347]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (avellaneda_stoikov/kalshi)",
+   "statistic": 24.361,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.909 t=24.36 CI=[0.836,0.981]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (glft/kalshi)",
+   "statistic": 5.156,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.128 t=5.16 CI=[0.083,0.178]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (adaptive_plain/kalshi)",
+   "statistic": 24.314,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.881 t=24.31 CI=[0.810,0.954]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (avellaneda_stoikov/predictit)",
+   "statistic": 26.405,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.965 t=26.41 CI=[0.893,1.036]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (glft/predictit)",
+   "statistic": 6.251,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.202 t=6.25 CI=[0.143,0.269]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (adaptive_plain/predictit)",
+   "statistic": 23.243,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.942 t=23.24 CI=[0.864,1.021]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (avellaneda_stoikov/kalshi)",
+   "statistic": 22.545,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.811 t=22.55 CI=[0.737,0.881]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (glft/kalshi)",
+   "statistic": 4.909,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.127 t=4.91 CI=[0.081,0.182]"
+  },
+  {
+   "hypothesis": "H3 mm pnl (adaptive_plain/kalshi)",
+   "statistic": 24.76,
+   "p_value": 0.0,
+   "verdict": "SUPPORTED",
+   "detail": "mean/h=0.846 t=24.76 CI=[0.781,0.912]"
+  }
+ ],
+ "beta_exposure": {
+  "strategy": "adaptive_plain",
+  "betas": {
+   "intercept": 1.4026,
+   "consensus_move": 21.7933,
+   "dispersion_move": -6.5361,
+   "news_volume": -0.3769
+  },
+  "t_stats": {
+   "intercept": 16.78,
+   "consensus_move": 3.92,
+   "dispersion_move": -0.73,
+   "news_volume": -1.95
+  },
+  "r_squared": 0.072
+ }
+}
