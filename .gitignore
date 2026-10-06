@@ -1,2 +1,7 @@
 skills/
 node_modules/
+var/
+*.db
+__pycache__/
+*.pyc
+config.json
