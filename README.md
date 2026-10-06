@@ -136,3 +136,28 @@ suite; pure-additive package (no mutation outside `var/` and `download/`).
 
 Research/education software. No financial advice. Exchanges' terms, local
 regulation and real execution latency/slippage are your responsibility.
+
+## Web console — live market-making fee engine (additive, Next.js)
+
+A browser console (`src/`) runs the same market-making mathematics as a
+**live server-side engine** so fee earning can be watched in real time:
+
+- **Engine** (`src/lib/mm/`): faithful TypeScript port of the Python
+  microstructure stack — Avellaneda-Stoikov in logit space, adaptive
+  spread, and the **earnings optimizer** (golden-section maximizer of
+  expected hourly fee earnings, re-solved every tick from measured book
+  state); Gaussian-sweep fill simulator with queue penalties, adverse
+  selection and no naked shorts; Polymarket liquidity-reward accounting
+  measured against the live book score; Kalshi/PredictIt fee models;
+  per-market + global kill switches and inventory caps.
+- **Data**: live order books from Polymarket gamma+CLOB, Kalshi v2
+  (events + orderbook, NO-side complement) and Manifold forecasts, with a
+  deterministic fixture universe as fallback (badge shows the active mode).
+- **UI** (`/` route): net fees earned ticker, rewards / spread capture /
+  adverse decomposition, cumulative earnings chart vs a naive static-spread
+  shadow baseline, live quotes table per market, fill tape, per-venue
+  earnings, and engine controls (strategy, gamma, quote size, inventory cap,
+  adverse fraction, clock speed, start/pause/reset, per-market MM toggle).
+- **API**: `GET /api/mm/state`, `POST /api/mm/control`.
+- Run: `bun run dev` (port 3000). The Python package is untouched; the
+  console is purely additive.
